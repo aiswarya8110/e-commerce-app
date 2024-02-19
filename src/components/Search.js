@@ -36,7 +36,7 @@ const Search = ()=>{
             </form>
             <select
             value={selectedPrice}
-            className='outline-none cursor-pointer bg-gray-500 h-12 text-white p-2 mt-8 md:ml-8 md:mt-0' 
+            className='outline-none cursor-pointer bg-gray-500 h-12 text-white p-2 rounded-lg mt-8 md:ml-8 md:mt-0' 
             onChange={onChangeHandler}>
                 <option value="500">above Rs.500</option>
                 <option value="1000">above Rs.1000</option>
