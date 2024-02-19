@@ -38,13 +38,13 @@ const Search = ()=>{
             value={selectedPrice}
             className='outline-none cursor-pointer bg-gray-500 h-12 text-white p-2 mt-8 md:ml-8 md:mt-0' 
             onChange={onChangeHandler}>
-                <option value="500"> {'>'} Rs.500</option>
-                <option value="1000"> {'>'} Rs.1000</option>
-                <option value="3000"> {'>'} Rs.3000</option>
-                <option value="5000"> {'>'} Rs.5000</option>
-                <option value="10000"> {'>'} Rs.10000</option>
-                <option value="50000"> {'>'} Rs.50000</option>
-                <option value="100000"> {'>'} Rs.100000</option>
+                <option value="500">above Rs.500</option>
+                <option value="1000">above Rs.1000</option>
+                <option value="3000">above Rs.3000</option>
+                <option value="5000">above Rs.5000</option>
+                <option value="10000">above Rs.10000</option>
+                <option value="50000">above Rs.50000</option>
+                <option value="100000">above Rs.100000</option>
             </select>
         </div>
         
